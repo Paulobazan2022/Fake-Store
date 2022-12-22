@@ -1,0 +1,237 @@
+* {
+  font-family: system-ui !important;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 15px;
+  align-items: center;
+  width: 300px;
+  margin: 5px;
+  padding: 10px;
+  border-color: #E4E9F3;
+  background-color: white!important;
+}
+
+.containerProducts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: azure;
+}
+
+.title {
+  margin: 15px;
+  text-align: justify;
+}
+
+.p {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.title1 {
+  color: #828787;
+}
+
+.button {
+
+  color: black !important;
+  border-color: black !important;
+  background-color: azure !important;
+
+}
+
+.button1 {
+  color: white !important;
+  background-color: #162378 !important;
+}
+
+
+.container-button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 30px;
+  gap: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.Carousel {
+  padding-left: 41%;
+  padding-top: 10%;
+}
+
+
+.one {
+  width: 200px !important;
+  height: 250px !important;
+}
+
+.container0 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 50px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.container0-1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 50px;
+  flex-direction: column;
+  align-content: center;
+  height: 400px;
+  background-color: azure;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  text-align: justify;
+}
+
+
+.textOne {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.contButton {
+  display: flex;
+  gap: 15px;
+  align-items: baseline;
+}
+
+.container-cart1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.totalCart {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  gap: 40px;
+}
+
+.text-cart {
+  display: flex;
+  justify-content: space-around;
+  font-style: italic;
+}
+
+.cart-empty {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: large;
+}
+
+.text-top-home {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: #E4E9F3;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+.container-user {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.container-user-login {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  font-family: cursive;
+}
+
+.container-user1 {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.button-Login {
+  color: white !important;
+  border-color: black !important;
+  background-color: black !important;
+  margin-top: 10px !important;
+}
+
+.container-logOut {
+  display: flex;
+  gap: 5px;
+}
+
+.rated {
+  display: flex;
+}
+
+.containter-prof {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.container-prof-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+  border: 3px solid #def1ed;
+  border-radius: 10px;
+  background-color: azure;
+}
+
+.container-prof-text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
